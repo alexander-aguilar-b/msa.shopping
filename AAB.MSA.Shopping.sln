@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7F57625A-D902-4B66-A217-C9D5B5451455}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{EAEC1BED-ADA2-46B1-BD9C-4671ED05301B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{F914E3B3-C6B3-44FE-A14B-AC6E9ED3903F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAB.MSA.Shopping.ProductCatalogAPI", "src\Services\AAB.MSA.Shopping.ProductCatalogAPI\AAB.MSA.Shopping.ProductCatalogAPI.csproj", "{9B5932FF-BCF3-477F-81E2-9383D9457F7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B5932FF-BCF3-477F-81E2-9383D9457F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5932FF-BCF3-477F-81E2-9383D9457F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5932FF-BCF3-477F-81E2-9383D9457F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5932FF-BCF3-477F-81E2-9383D9457F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAEC1BED-ADA2-46B1-BD9C-4671ED05301B} = {7F57625A-D902-4B66-A217-C9D5B5451455}
+		{F914E3B3-C6B3-44FE-A14B-AC6E9ED3903F} = {7F57625A-D902-4B66-A217-C9D5B5451455}
+		{9B5932FF-BCF3-477F-81E2-9383D9457F7C} = {EAEC1BED-ADA2-46B1-BD9C-4671ED05301B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EA8609F-B2E1-4035-94FA-3E6460AA5897}
+	EndGlobalSection
+EndGlobal
